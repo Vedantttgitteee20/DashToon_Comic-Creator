@@ -5,7 +5,7 @@ import ComicForm from './ComicForm';
 import { query } from '../components/utils';
 import Navbar from '../components/Navbar';
 import styles from '../css/home.module.css';
-
+import ComicPanel from './ComicPanel';
 const Home = () => {
   const [strips, setStrips] = useState([{ id: 1, text: '', imageUrl: '', loading: false }]); // Initial strip
   console.log(strips)
@@ -77,6 +77,7 @@ const Home = () => {
           </button>
         </div>
       </div>
+      <ComicPanel strips={strips} />
     </div>
   );
 };

@@ -9,8 +9,8 @@ const ComicForm = ({generateComic}) => {
 
   return (
     <div class="mb-3">
-      <div >
-      <label for="exampleFormControlTextarea1" class="form-label">Enter text for comic</label>
+      <div className={Styles.leftTopDiv}>
+      <label style={{color:"white", fontSize: 40}} for="exampleFormControlTextarea1" class="form-label">Enter text for comic</label>
       <textarea style={{color:"black",backgroundColor:"white",width: "300px", height:"50px",resize: "none"}} id="exampleFormControlTextarea1" rows="3" onChange={(e) => handleInputChange(e.target.value)}></textarea>
       </div>
       <button className={Styles.button} onClick={() => generateComic(panelTexts)}>

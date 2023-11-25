@@ -1,13 +1,21 @@
+.leftTopDiv{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  /* align-content: center; */
+  /* justify-content: center; */
+
+}
 .button {
   -webkit-border-radius: 10;
   -moz-border-radius: 10;
   border-radius: 10px;
   border-style: none;
   color: #ffffff;
-  margin-right: 30px;
+  margin-top: 20px;
   font-size: 17px;
   background: #fe2a19;
-  padding: 12px 14px 13px 14px;
+  padding: 10px 12px 10px 12px;
   text-decoration: none;
   border: 0.08rem solid #fe2a19;
 }

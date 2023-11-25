@@ -2,8 +2,8 @@ import React from 'react';
 
 const ComicDisplay = ({ imageUrl }) => {
   return (
-    <div>
-      {imageUrl && <img src={imageUrl} width="200px" height="200px" alt="Generated Comic" />}
+    <div style={{ display: 'flex',objectFit: 'contain', alignItems: 'center', justifyContent: 'center', border: '2px solid white', overflow: 'hidden' }}>
+      {imageUrl && <img src={imageUrl} alt="Generated Comic" style={{ objectFit: 'contain', maxWidth: '200px', maxHeight: '200px' }} />}
     </div>
   );
 };

@@ -1,0 +1,22 @@
+.outerDiv{
+    background-color: black;
+    min-height: 100vh; /* Set the minimum height of the viewport */
+    display: flex; /* Use flexbox for vertical centering */
+    flex-direction: column; 
+}
+.innerDiv{
+    padding: 20px;
+}
+.strip{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 0px 10px 0px;
+    align-items: center;
+    height: 250px;
+    border: white;
+    border-width: 2px;
+    border-top: 2px solid white; 
+    border-bottom: 2px solid white;
+    box-sizing: border-box; 
+}

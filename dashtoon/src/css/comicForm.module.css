@@ -1,0 +1,18 @@
+.button {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  border-style: none;
+  color: #ffffff;
+  margin-right: 30px;
+  font-size: 17px;
+  background: #fe2a19;
+  padding: 12px 14px 13px 14px;
+  text-decoration: none;
+  border: 0.08rem solid #fe2a19;
+}
+.button:hover {
+    background: #ffffff;
+    color: #fe2a19;
+    text-decoration: none;
+  }

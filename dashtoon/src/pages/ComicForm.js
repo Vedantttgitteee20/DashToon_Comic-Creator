@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Styles from '../css/comicForm.module.css'
+
 const ComicForm = ({generateComic}) => {
     const [panelTexts, setPanelTexts] = useState('');
 

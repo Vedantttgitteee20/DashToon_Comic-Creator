@@ -1,4 +1,3 @@
-// Home.js
 import React, { useState } from 'react';
 import ComicDisplay from './ComicDisplay';
 import ComicForm from './ComicForm';
@@ -6,9 +5,9 @@ import { query } from '../components/utils';
 import Navbar from '../components/Navbar';
 import styles from '../css/home.module.css';
 import ComicPanel from './ComicPanel';
+
 const Home = () => {
   const [strips, setStrips] = useState([{ id: 1, text: '', imageUrl: '', loading: false }]); // Initial strip
-  console.log(strips)
   const generateComic = async (panelTexts, stripId) => {
     try {
       setStrips((prevStrips) =>
@@ -56,7 +55,7 @@ const Home = () => {
     <div className={styles.outerDiv}>
       <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
       <Navbar />
-      <div className={styles.info}>No of Pages: {strips.length}</div>
+      <div className={styles.info}>No of Comic Strip: {strips.length}</div>
       <div className={styles.innerDiv}>
         {strips.map((strip) => (
           <div key={strip.id} className={styles.strip}>
@@ -73,11 +72,11 @@ const Home = () => {
         ))}
         <div className={styles.centerButton}>
           <button className={styles.button} onClick={addStrip}>
-            +
+            Add +
           </button>
         </div>
       </div>
-      <ComicPanel strips={strips} />
+      {strips.length > 0 && <ComicPanel strips={strips} />}
     </div>
   );
 };

@@ -1,13 +1,5 @@
-// ComicDisplay.js
 import React from 'react';
-import Spinner from '../components/Spinner'; // Import the Spinner component
-// import { css } from 'react-spinners';
-
-// const override = css`
-//   display: block;
-//   margin: 0 auto;
-//   border-color: red;
-// `;
+import Spinner from '../components/Spinner'; 
 
 const ComicDisplay = ({ imageUrl, loading }) => {
   return (

@@ -3,6 +3,9 @@ A React Project done as recruitment assignment for DashToon.
 
 Comic Creator Web App takes text as input and generate comic according to text input by user.
 
+## Host
+The page is hosted on github pages. [Click here](https://vedantttgitteee20.github.io/DashToon_Comic-Creator/)
+
 ## Feature
 
 * Generate images based on text given

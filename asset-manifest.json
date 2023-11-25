@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/DashToon_Comic-Creator/static/css/main.e3cfdc8d.css",
+    "main.js": "/DashToon_Comic-Creator/static/js/main.4ff911b3.js",
+    "static/js/787.9da9bd17.chunk.js": "/DashToon_Comic-Creator/static/js/787.9da9bd17.chunk.js",
+    "static/media/dashtoon-logo.png": "/DashToon_Comic-Creator/static/media/dashtoon-logo.a8078db575978f3185c8.png",
+    "index.html": "/DashToon_Comic-Creator/index.html",
+    "main.e3cfdc8d.css.map": "/DashToon_Comic-Creator/static/css/main.e3cfdc8d.css.map",
+    "main.4ff911b3.js.map": "/DashToon_Comic-Creator/static/js/main.4ff911b3.js.map",
+    "787.9da9bd17.chunk.js.map": "/DashToon_Comic-Creator/static/js/787.9da9bd17.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3cfdc8d.css",
+    "static/js/main.4ff911b3.js"
+  ]
+}
